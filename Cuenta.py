@@ -3,7 +3,7 @@ class Cuenta(): # ejercicio 7
         self.__titular = titular
         self.__cantidad= 0.0
                 
-    @property        # version de branch carlos 2
+    @property        # version de branch carlos 3
     def titular(self):
         return self.__titular
     
