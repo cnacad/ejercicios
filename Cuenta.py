@@ -1,9 +1,9 @@
-python manageclass Cuenta(): # ejercicio 7
+class Cuenta(): # ejercicio 7
     def __init__(self,titular): 
         self.__titular = titular
         self.__cantidad= 0.0
                 
-    @property        # version de branch carlos 
+    @property        # version de branch carlos 2
     def titular(self):
         return self.__titular
     
